@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    justify-items: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.hero {
+    display: grid;
+    width: 450px;
+    background-color: white;
+    border: 2px solid brown;
+    padding: 20px;
+}
+
+.hero__subtitle {
+    font-weight: 600;
+}
+
+.hero__charactetistic {
+    padding-left: 30px;
+}
+
+.hero__name {
+    margin: auto;
+    font-family: 'Lobster', cursive;   
+}
+
+.hero__img {
+    padding-top: 20px;
+    margin: auto;
+}
+
+.hero__button {
+    width: 80px;
+    height: 30px;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: gold;
+    margin: auto;
+}
+
+.hero__img {
+    width: 280px;
+    height: 200px;
+    margin-bottom: 10px;
+}
