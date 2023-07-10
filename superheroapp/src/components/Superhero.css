@@ -1,19 +1,7 @@
-* {
-    box-sizing: border-box;
-}
-
-.container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
-    justify-items: center;
-    margin-bottom: 20px;
-    margin-top: 20px;
-}
 
 .hero {
     display: grid;
-    width: 450px;
+    width: 400px;
     background-color: white;
     border: 2px solid brown;
     padding: 20px;
